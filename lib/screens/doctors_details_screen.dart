@@ -145,9 +145,9 @@ class DoctorDetailsScreen extends StatelessWidget {
               title: Text('Surgeon'),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: const Text(
+          const Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text(
               'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore ',
             ),
           ),
