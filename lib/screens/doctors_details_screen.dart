@@ -145,8 +145,11 @@ class DoctorDetailsScreen extends StatelessWidget {
               title: Text('Surgeon'),
             ),
           ),
-          const Text(
-            'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore ',
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: const Text(
+              'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore ',
+            ),
           ),
           reUseTitle(text: 'Book Date', fontW: FontWeight.w700),
           SingleChildScrollView(

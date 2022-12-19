@@ -11,18 +11,18 @@ class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
 
   List catName = [
+    'Eye',
     'Dental',
     'Heart',
-    'Eye',
-    'Brain',
     'Ear',
+    'Brain',
   ];
 
   List<Icon> catIcon = const [
     Icon(MdiIcons.eye, size: 30, color: mColor),
     Icon(MdiIcons.toothOutline, size: 30, color: mColor),
+    Icon(MdiIcons.heart, size: 30, color: mColor),
     Icon(MdiIcons.earHearing, size: 30, color: mColor),
-    Icon(MdiIcons.eye, size: 30, color: mColor),
     Icon(MdiIcons.brain, size: 30, color: mColor),
   ];
   @override
@@ -64,7 +64,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     SizedBox(height: size.height * 0.025),
                     reUseTitle(
-                        text: 'Hi, Programmers',
+                        text: 'Hi, Programers',
                         size: 14,
                         color: Colors.white,
                         fontW: FontWeight.normal),
@@ -72,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                     SizedBox(
                       width: size.width * .6,
                       child: reUseTitle(
-                          text: 'Your Health is Our First Proirty',
+                          text: 'Your Health is Our First Priority',
                           size: 26,
                           color: Colors.white),
                     ),

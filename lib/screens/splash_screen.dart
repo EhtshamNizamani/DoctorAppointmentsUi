@@ -25,7 +25,7 @@ class SplashScreen extends StatelessWidget {
                 ),
                 const Text('Doctors Online',
                     style: TextStyle(fontSize: 38, color: Colors.white)),
-                const Text('Oppoint your Doctor',
+                const Text('Appoint your Doctor',
                     style: TextStyle(fontSize: 18, color: Colors.white)),
                 letsGoButton(
                   context: context,
